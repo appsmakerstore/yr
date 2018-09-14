@@ -1,0 +1,20 @@
+$:.unshift File.dirname(__FILE__)
+require 'rubygems'
+require 'nokogiri'
+require 'open-uri'
+require 'uri'
+require 'net/http'
+require 'time'
+require 'yaml'
+require 'timezone'
+require 'yr/raw'
+require 'yr/place'
+require 'yr/forecast'
+require 'yr/detail'
+require 'yr/symbol'
+require 'yr/wind'
+require 'yr/location'
+require 'yr/sunrise'
+require 'yr/ocean_forecast'
+
+module Yr; end
